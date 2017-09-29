@@ -1,0 +1,2 @@
+#include<bits/stdc++.h> 
+using namespace std; int main(){ int t=10; while(t--){string s;cin>>s;int len=s.length(),count=0,i;for(i=0;i<len;i++)if(s[i]=='T'||s[i]=='D'||s[i]=='L'||s[i]=='F') count++;cout<<pow(2,count)<<endl;}return(0);} 
